@@ -18,6 +18,7 @@ body{
     background: dimgrey;
     list-style-type: none;
     text-decoration: none;
+    margin-bottom: 5%;
 }
 
 .menu A {
@@ -104,13 +105,13 @@ body{
 
 .footer{
     display: flex;
-    height: 5px;
+    height: 40px;
     flex-wrap: nowrap;
     position: relative;
     background: gold;
     list-style-type: none;
     text-decoration: none;
-    padding-bottom: 5%;
+    margin-bottom: 30px;
 }
 
 .footer A {
