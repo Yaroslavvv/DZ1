@@ -1,11 +1,14 @@
 /*header*/
-BODY {
-    background: white; /* Цвет фона веб-страницы */
-    border-left: 2px solid #ccc; /* Параметры линии */
-    margin-left: 10%; /* Отступ слева */
-    padding-left: 5%; /* Расстояние от линии до текста */
+body{
+    background: lightgray;
 }
-
+.page{
+    margin-left: 5%;
+    margin: auto;
+    width: 75%;
+    box-shadow: 2 2 2px grey;
+    background: white;
+}
 .menu{
     display: flex;
     height: 100px;
@@ -76,18 +79,19 @@ BODY {
 .text{
     display: flex;
     flex-direction: column-reverse;
-    margin-left: 30%;
-    margin-right: 7%;
+    width: 75%;
 }
 
 .logo{
     padding-top: 5%;
-    padding-right: 5%;
     padding-bottom: 5%;
+    margin-right: unset;
     border-width: 2px 2px;
     border-style: groove;
-    width: 60%;
+}
 
+.logobox{
+    padding-right: 2%;
 }
 
 .menu2 ul{
@@ -100,12 +104,13 @@ BODY {
 
 .footer{
     display: flex;
-    height: 50px;
+    height: 5px;
     flex-wrap: nowrap;
     position: relative;
-    background: lightgray;
+    background: gold;
     list-style-type: none;
     text-decoration: none;
+    padding-bottom: 5%;
 }
 
 .footer A {
@@ -123,3 +128,14 @@ BODY {
     text-decoration: none;
 }
 
+.cont1{
+    display: flex;
+    align-items: flex-start;
+}
+
+.cont2{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: flex-end;
+}
