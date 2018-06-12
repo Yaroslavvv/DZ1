@@ -3,11 +3,12 @@ body{
     background: lightgray;
 }
 .page{
-    margin-left: 5%;
-    margin: auto;
-    width: 75%;
-    box-shadow: 2 2 2px grey;
+    width: 85%;
     background: white;
+    box-shadow: 0 0 2px grey;
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: 0px;
 }
 .menu{
     display: flex;
@@ -40,8 +41,6 @@ body{
     text-decoration: none;
     list-style-type: none;
     text-decoration: none;
-    border: 1px solid grey;margin: 0;
-    width: 120px;
 }
 
 .menu2 A {
@@ -83,20 +82,18 @@ body{
     width: 75%;
 }
 
-.logo{
+.logo {
     padding-top: 5%;
     padding-bottom: 5%;
     margin-right: unset;
     border-width: 2px 2px;
     border-style: groove;
+    height: auto;
 }
 
 .logobox{
     padding-right: 2%;
-}
-
-.menu2 ul{
-    display: table; width: 100%display: table; width: 100%
+    height: auto;
 }
 
 .menu li {
@@ -111,7 +108,6 @@ body{
     background: gold;
     list-style-type: none;
     text-decoration: none;
-    margin-bottom: 30px;
 }
 
 .footer A {
@@ -139,4 +135,20 @@ body{
     justify-content: flex-start;
     flex-direction: column;
     align-items: flex-end;
+}
+
+.menu2{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 15%;
+}
+
+.menu2 li{
+
+}
+
+.page1{
+    padding-right: 5%;
+    padding-left: 5%;
 }
