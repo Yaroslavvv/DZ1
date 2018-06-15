@@ -46,6 +46,7 @@ body{
 
 .left_menu_cont{
     margin-right: 5%;
+    margin-top: none;
 }
 
 .left_menu li{
@@ -64,14 +65,20 @@ body{
 }
 
 .bike{
+    width: 90%;
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: auto;
+    padding-bottom: 30px;
     border: lightgrey;
     border-width: 1px;
     border-style: groove;
     margin-bottom: 20px;
 }
 
-.bike_img{
-    margin: auto;
+.text{
+    padding-left: 30px;
 }
 
 .cont_lm_txt{
