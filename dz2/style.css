@@ -77,8 +77,15 @@ body{
     margin-bottom: 20px;
 }
 
+.bike IMG{
+    align-self: center;
+}
 .text{
     padding-left: 30px;
+}
+
+.text p{
+    align-self: left;
 }
 
 .cont_lm_txt{
