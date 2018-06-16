@@ -97,7 +97,6 @@ body{
 }
 
 .text p{
-    align-self: left;
     padding-right:28px;
     padding-left:25px;
     line-height: 150%;
