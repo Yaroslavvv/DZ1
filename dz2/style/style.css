@@ -1,0 +1,199 @@
+body{
+    background: #f9f9f9;
+}
+
+.page{
+    width: 1061px;
+    margin-left: 153px;
+    margin-right: 153px;
+    background: #ffffff;
+    box-shadow: 1px 0px 12px 1px rgba(0,0,0,0.75);
+}
+
+.page1 {
+    width: 967px;
+    padding-top: 30px;
+    margin-left: 47px;
+    margin-right: 90px;
+    padding-bottom: 59px;
+}
+
+.logo{
+    margin-bottom:40px;
+}
+
+
+.top_menu{
+    display: flex;
+    background: #545454;
+    text-decoration: none;
+    text-align: center;
+    list-style-type: none;
+    width: 100%;
+    position: relative;
+    margin: auto;
+    margin-bottom: 41px;
+}
+
+.top_menu li{
+    height: 35px;
+    width: 500px;
+    margin: auto;
+    padding-top: 18px;
+}
+
+
+.top_menu li:last-child{
+    margin-right: 300px;
+}
+
+.left_menu_cont{
+    margin-right: 5%;
+    margin-top: unset;
+}
+
+.left_menu{
+    height: 239px;
+    width: 239px;
+}
+
+.left_menu li{
+    margin-right: 47px;
+    text-align: left;
+    font-size: 20px;
+    width:180px;
+    padding: 10px;
+    border-left: 2px;
+    border-right: black;
+    border-top: black;
+    border-left: black;
+    border-style: groove;
+    border-width: 1px;
+}
+
+.bike{
+    width: 677px;
+    text-align: center;
+    border: lightgrey;
+    border-width: 1px;
+    border-style: groove;
+}
+
+.bike_board{
+    padding-right: 89px;
+}
+
+.bike_img{
+    margin-bottom: 47px;
+    margin-top: 47px;
+    height: 306px;
+    width: 500px;
+    align-self: center;
+}
+.text{
+    width: 676px;
+    margin-top: 38px;
+    margin-bottom: 61px;
+}
+
+.text p{
+    align-self: left;
+    padding-right:28px;
+    padding-left:25px;
+    line-height: 150%;
+
+}
+
+.cont_lm_txt{
+    display: flex;
+
+}
+
+.cont_img_txt{
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+
+
+
+
+/*FOOTER*/
+
+.footer{
+    display: flex;
+    background: #e1e1e1;
+    text-align: center;
+    list-style-type: none;
+    width: 100%;
+    position: relative;
+}
+
+.footer li{
+    height: 35px;
+    margin: auto;
+    padding-top: 18px;
+}
+
+.footer li:last-child{
+    padding-left: 300px;
+}
+
+
+/*LINKS*/
+/*top*/
+.top_menu A {
+    color: white; /* Цвет ссылок */
+    text-decoration: none;
+}
+
+.top_menu li:hover{
+    background: #444444;
+    border-right: 1px groove #EEEEEE;
+    border-left: 1px groove #EEEEEE;
+}
+
+.top_menu A:active{
+    color: white; /* Цвет активных ссылок */
+    text-decoration: none;
+}
+
+/*left*/
+
+.left_menu A {
+    color: #656363; /* Цвет ссылок */
+    text-decoration: none;
+}
+
+.left_menu A:active{
+    color: #656363; /* Цвет активных ссылок */
+    text-decoration: none;
+}
+
+.left_menu A:hover{
+    padding-left: 10px;
+    color: #2c2c2c;
+
+}
+/*footer*/
+.footer A{
+    color: black; /* Цвет ссылок */
+    text-decoration: none;
+}
+
+.footer A:hover{
+    text-decoration: underline;
+}
+
+.footer A:visited{
+    color: black; /* Цвет посещенных ссылок */
+    text-decoration: none;
+}
+
+.footer A:active{
+    color: black; /* Цвет активных ссылок */
+    text-decoration: none;
+}
+/*/LINKS/*/
