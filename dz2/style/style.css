@@ -14,7 +14,7 @@ body{
     width: 967px;
     padding-top: 30px;
     margin-left: 47px;
-    margin-right: 90px;
+    margin-right: 47px;
     padding-bottom: 59px;
 }
 
@@ -90,6 +90,7 @@ body{
     width: 500px;
     align-self: center;
 }
+
 .text{
     width: 676px;
     margin-top: 38px;
@@ -114,11 +115,6 @@ body{
 
 }
 
-
-
-
-
-
 /*FOOTER*/
 
 .footer{
@@ -139,7 +135,6 @@ body{
 .footer li:last-child{
     padding-left: 300px;
 }
-
 
 /*LINKS*/
 /*top*/
@@ -176,6 +171,7 @@ body{
     color: #2c2c2c;
 
 }
+
 /*footer*/
 .footer A{
     color: black; /* Цвет ссылок */
@@ -195,4 +191,3 @@ body{
     color: black; /* Цвет активных ссылок */
     text-decoration: none;
 }
-/*/LINKS/*/
