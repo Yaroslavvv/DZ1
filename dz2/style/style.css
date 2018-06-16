@@ -64,9 +64,9 @@ body{
     width:180px;
     padding: 10px;
     border-left: 2px;
-    border-right: black;
-    border-top: black;
-    border-left: black;
+    border-right: #c8c8c8;
+    border-top: #c8c8c8;
+    border-left: #c8c8c8;
     border-style: groove;
     border-width: 1px;
 }
@@ -74,7 +74,7 @@ body{
 .bike{
     width: 677px;
     text-align: center;
-    border: lightgrey;
+    border: #c8c8c8;
     border-width: 1px;
     border-style: groove;
 }
