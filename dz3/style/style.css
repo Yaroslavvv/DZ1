@@ -1,10 +1,12 @@
+
 .header{
+
     background: url("../img/top_back.jpg");
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding-left: 40px;
-    padding-right: 40px;
+    padding-left: 200px;
+    padding-right: 200px;
     justify-content: space-between;
     height: 70px;
 }
@@ -19,18 +21,80 @@
 .top_menu a{
     list-style-type: none;
     text-decoration: #EEEEEE;
-    font-size: 25px;
+    font-size: 18px;
     padding-right:25px;
 }
 
 .slider{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 200px ;
+    padding-right: 200px;
     height: 370px;
     background: #29292a;
     background-image: url("../img/back_img1.png");
     background-size: cover;
 }
 
+.slider_img{
+    position: relative;
+}
 
+.img1{
+    position: absolute;
+    top: 120px;
+    left: 123px;
+    z-index: 3;
+}
+
+
+.img2{
+    position: absolute;
+    top: 70px;
+    left: 78px;
+    z-index: 2;
+}
+
+.img3{
+    position: absolute;
+    top: 40px;
+    left: 266px;
+    z-index: 1;
+}
+
+.slider_text{
+    width: 372px;
+}
+
+.slider_text H1{
+    font-size: 26px;
+    color: white;
+    margin-bottom: 23px;
+}
+
+.slider_text p{
+    font-size: 16px;
+    color: white;
+    line-height: 150%;
+}
+
+.tex_butt {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+.tex_butt button {
+    height: 53px;
+    width: 186px;
+    color: white;
+    background: #58a2cf;
+    border: none;
+    font-size: 28px;
+    margin-top: 70px;
+    margin-left: 75px;
+}
 
 
 /*LINKS*/
