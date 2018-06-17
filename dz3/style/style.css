@@ -23,6 +23,13 @@
     padding-right:25px;
 }
 
+.slider{
+    height: 370px;
+    background: #29292a;
+    background-image: url("../img/back_img1.png");
+    background-size: cover;
+}
+
 
 
 
