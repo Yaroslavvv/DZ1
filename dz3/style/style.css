@@ -1,6 +1,5 @@
-
-.header {
-    background-image: url("img/top_back.jpg");
+.header{
+    background: url("../img/top_back.jpg");
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -10,12 +9,7 @@
     height: 70px;
 }
 
-.header:last-child{
-    align-self: flex-end;
-}
-
 .top_menu{
-    height: 70px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -37,12 +31,6 @@
 .top_menu A {
     color: white; /* Цвет ссылок */
     text-decoration: none;
-}
-
-.top_menu li:hover{
-    background: #444444;
-    border-right: 1px groove #EEEEEE;
-    border-left: 1px groove #EEEEEE;
 }
 
 .top_menu A:active{
