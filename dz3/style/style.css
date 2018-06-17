@@ -1,0 +1,51 @@
+
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    justify-content: space-between;
+    height: 70px;
+    background-image: url("img/top_back.png");
+}
+
+.header:last-child{
+    align-self: flex-end;
+}
+
+.top_menu{
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top_menu a{
+    list-style-type: none;
+    text-decoration: #EEEEEE;
+    font-size: 25px;
+    padding-right:25px;
+}
+
+
+
+
+/*LINKS*/
+/*top*/
+.top_menu A {
+    color: white; /* Цвет ссылок */
+    text-decoration: none;
+}
+
+.top_menu li:hover{
+    background: #444444;
+    border-right: 1px groove #EEEEEE;
+    border-left: 1px groove #EEEEEE;
+}
+
+.top_menu A:active{
+    color: white; /* Цвет активных ссылок */
+    text-decoration: none;
+}
