@@ -116,6 +116,7 @@
     width: 1198px;
     padding-right: 116px;
     padding-left: 116px;
+    margin-bottom: 130px;
 }
 
 .feed_shadow{
@@ -161,6 +162,7 @@
     height: 38px;
     border: none;
     background: #58a2cf;
+    color: white;
     padding: 8px 8px;
     width: 60px;
 }
@@ -216,7 +218,6 @@
     margin-top: 74px;
     display: flex;
     justify-content: space-between;
-    height: 200px;
 }
 
 .botoom div{
@@ -241,6 +242,25 @@
 .but_2 button{
     margin-top: 47px;
 }
+
+.footer_back{
+    background: url("../img/back_img2.png");
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    width: 1198px;
+}
+
+.about_us{
+    color: white;
+}
+
+.ql{}
+
+
+
 
 
 /*LINKS*/
