@@ -2,25 +2,24 @@
     background: url("../img/top_back.jpg");
 }
 
-.header{
-    width: 1200px;
+.header {
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-left: 116px;
-    margin-right: 116px;
-    justify-content: space-between;
+    padding-left: 116px;
+    padding-right: 116px;
     height: 70px;
 }
 
 .logo_box{
+    padding-left: 116px;
 }
 
 .top_menu{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     align-items: center;
+    padding-left: 300px;
 }
 
 .top_menu a{
@@ -37,10 +36,8 @@
 }
 
 .slider{
-    width: 1198px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     padding-left: 116px ;
     padding-right: 116px;
     height: 370px;
@@ -91,13 +88,15 @@
 .slider_text p{
     font-size: 16px;
     color: white;
-    line-height: 150%;
+    line-height: 20px;
 }
 
 .tex_butt {
     display: flex;
     flex-direction: column;
     align-self: center;
+    padding-left: 681px;
+
 }
 
 .tex_butt button {
@@ -113,7 +112,6 @@
 
 .content {
     position: relative;
-    width: 1198px;
     padding-right: 116px;
     padding-left: 116px;
     margin-bottom: 130px;
@@ -191,8 +189,8 @@
 }
 
 .top{
+    align-self: center;
     display: flex;
-    justify-content: space-between;
     height: 200px;
 }
 
@@ -215,9 +213,9 @@
 }
 
 .botoom{
+    align-self: center;
     margin-top: 74px;
     display: flex;
-    justify-content: space-between;
 }
 
 .botoom div{
@@ -243,26 +241,129 @@
     margin-top: 47px;
 }
 
-.footer_back{
+.info_back{
     background: url("../img/back_img2.png");
 }
 
-.footer{
+.info{
+    padding-top: 35px;
+    padding-bottom: 25px;
     display: flex;
     flex-direction: row;
-    width: 1198px;
+    justify-content: space-between;
+    padding-left: 116px;
+    padding-right: 116px;
+}
+
+.info h1{
+    font-family: Arial;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 30px;
+}
+
+.info p{
+    font-family: Arial;
+    font-size: 14px;
+    line-height: 20px;
 }
 
 .about_us{
+    width: 270px;
+    margin-left: 176px;
     color: white;
 }
 
-.ql{}
+.info .about_us button {
+    height: 36px;
+    width: 72px;
+    color: white;
+    font-family: "Trebuchet MS";
+    font-size: 16px;
+    background: #1559af;
+    border: none;
+    margin-top: 16px;
+}
+
+.ql {
+    width: 270px;
+    color: white;
+    font-family: Arial;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.cont_us {
+    display: flex;
+    flex-direction: column;
+    width: 270px;
+    margin-right: 108px;
+    color: white;
+}
 
 
+.line{
+    margin-top: 8px;
+    margin-bottom: 26px;
+}
+
+.name {
+    height: 32px;
+    width: 184px;
+    margin-bottom: 6px;
+    background: #111010;
+    border-radius: 20px;
+    border-style: none;
+}
+
+.email {
+    height: 32px;
+    width: 184px;
+    margin-bottom: 6px;
+    background: #111010;
+    color: white;
+    border-radius: 20px;
+    border-style: none;
+}
+
+.message {
+    height: 100px;
+    width: 270px;
+    margin-bottom: 6px;
+    background: #111010;
+    color: white;
+    border-radius: 20px;
+    border-style: none;
+}
+
+.cont_us button{
+    height: 36px;
+    width: 72px;
+    color: white;
+    font-family: "Trebuchet MS";
+    font-size: 16px;
+    background: #1559af;
+    border: none;
+    margin-top: 16px;
+}
+
+.back_down{
+    height: 35px;
+}
+
+.footer{
+    background-image: url("../img/back_down.png");
+}
+
+.footer small{
+    margin-left: 291px;
+    font-family: Arial;
+    font-size: 12px;
+    line-height: 30px;
+    color: white;
 
 
-
+}
 /*LINKS*/
 /*top*/
 .top_menu A {
@@ -272,5 +373,16 @@
 
 .top_menu A:active{
     color: white; /* Цвет активных ссылок */
+    text-decoration: none ;
+}
+
+.ql A {
+    color: white; /* Цвет ссылок */
     text-decoration: none;
 }
+
+.ql A:active{
+    color: white; /* Цвет активных ссылок */
+    text-decoration: none;
+}
+
