@@ -1,8 +1,12 @@
+body{
+    align-self: center;
+}
+
 .header_back {
     background: url("../img/top_back.jpg");
 }
 
-.header {
+header {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -94,6 +98,8 @@
 .feedback {
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
     width: auto;
     height: 72px;
     margin-top: 30px;
@@ -106,15 +112,12 @@
 .feedback_p{
     font-size: 16px;
     font-family: Arial;
-    padding-top: 30px;
-    padding-left: 10px;
 }
 
 .feedback form {
     display: flex;
     flex-direction: row;
-    padding-top: 20px;
-    padding-left: 80px;
+    padding-top: 10px;
     height: 50px;
 }
 
@@ -352,6 +355,16 @@
 
 .ql A:active{
     color: white; /* Цвет активных ссылок */
+    text-decoration: none;
+}
+
+.slider_text a{
+    color: white; /* Цвет ссылок */
+    text-decoration: none;
+}
+
+.slider_text {
+    color: white; /* Цвет ссылок */
     text-decoration: none;
 }
 
